@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section {
+    position: relative;
+    width: 300px;
+    height: 150vh;
+    background-color: #26ca;
+}
+.d-inline-flex {
+    text-align: center;
+    width: 100%;
+}
+.btnp {
+    width: 100%;
+}
+.collapsing > .card-body {
+    background-color: #26c0;
+    color: #fff;
+}
+.show > .card-body {
+    background-color: #26c0;
+    color: #fff;
+}
+.productos {
+    /* background-image: url('../img/fondo2.webp'); */
+    flex: 1;
+    margin: auto;
+    position: absolute;
+    right: 20px;
+    left: 300px;
+    top: 20px;
+    width: 70%;
+    height: auto;
+}
+.form-control {
+    display: flex;
+    width: 100px;
+    text-align: center;
+}
+.lista-productos {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+#tabla-productos {
+  margin-top: 50px;
+  width: 100%;
+}
+#marca {
+    width: 100%;
+    text-align: center;
+}
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.formulario {
+    margin: auto;
+    text-align: center;
+}
+.formulario input {
+    margin-top: 8px;
+    margin-bottom: 7px;
+    border-radius: 9px;
+    padding: 8px;
+}
+.formulario select {
+    margin-top: 9px;
+    border-radius: 9px;
+}
+#guardar {
+    margin-top: 15px;
+}
